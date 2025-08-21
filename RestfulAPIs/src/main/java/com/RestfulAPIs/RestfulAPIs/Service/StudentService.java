@@ -6,4 +6,8 @@ import com.RestfulAPIs.RestfulAPIs.Repository.StudentRepository;
 public interface StudentService {
     List<StudentDTO> getAllStudents();
 
+    StudentDTO getStudentsById(Long id);
+
+
 }
+
