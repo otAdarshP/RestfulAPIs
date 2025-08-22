@@ -4,11 +4,10 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@AllArgsConstructor // constructor with parameters
-@Data // getters and setters
-@NoArgsConstructor // constructor with no parameters
-public class StudentDTO {
-    private long id;
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class AddStudentDTO {
     private String name;
     private String email;
 }
